@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*, ::after , ::before{
+    box-sizing: border-box;
+}
+
+
+.header,
+.log-in-card{
+    background-color: #24353F;
+}
+
+.log-in-card{
+    box-shadow: #18232A;
+    width: 60%;
+}
+.h2{
+    color: #17A2B8;
+    font-family:"Titillium Web", sans-serif;
+    font-weight:500;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.form-control::placeholder{
+    color: white;
+    opacity: 50%;
+}
+
+.btn-outline-info:hover{
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline !important;
+}
+
+
+.bg-secondary-subtle:hover{
+    background-color: transparent !important;
+    border: 1px white solid;
+}
